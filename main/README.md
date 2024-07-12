@@ -9,7 +9,7 @@
 ## 3. Description of Each File
 - main/routing.cpp: Main program source code
 - main/Makefile: Makefile
-- main/readme.txt: This file
+- main/README.md: This file
 
 ## 4. Compilation Instructions
 To compile the main program:
