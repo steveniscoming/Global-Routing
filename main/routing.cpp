@@ -198,7 +198,6 @@ int main(int argc, char* argv[]) {
     inputFile >> net;  
 
     graph g(size,cap,net);
-    g.print_graph();
     for(int i=0;i<net;i++){
         int id;
         pair<int,int> s;
@@ -212,7 +211,6 @@ int main(int argc, char* argv[]) {
             outputFile<<steven[j+1].first<<" "<<steven[j+1].second<<endl;
         }
     }
-    g.print_graph();
     inputFile.close(); 
     outputFile.close();
 }
