@@ -3,6 +3,8 @@
 This programming assignment asks you to write a global router that can route 2-pin nets (connection between two points). The problem description below is a simplified routing problem. Given the problem size (the number of horizontal and vertical tiles), capacity, and a netlist, the global router routes all nets in the routing region. The main objective is to minimize the total overflows. Here the overflow on a tile boundary is calculated as the amount of demand that excesses the capacity, i.e., overflow = max(0, demand-capacity).
 ## Input
 The input consists of an integer 2n, 1≤𝑛≤10000, denoting the number of vertices on a circle, followed by n lines, each containing two integers a and b (0≤𝑎,𝑏≤2𝑛−1), denoting two endpoints of a chord. A single “0” (zero) in the input line signifies the end of input.
+
+
 ![image](https://github.com/user-attachments/assets/dec6afa6-1428-44ad-896c-c684b152d08d)
 
 
